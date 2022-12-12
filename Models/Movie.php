@@ -16,6 +16,7 @@ class Movie{
         $this->year = $_year;
         $this->originalLanguage = $_originalLanguage;
         $this->rating = $_rating;
+        $this->originalTitle = $_originalTitle;
         $this->getOriginalTitle();
     }
 
