@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.genres{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.infos > *:not(:last-of-type)::after{
+    content: '---';
+    margin: 0 15px;
+}

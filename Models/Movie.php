@@ -9,7 +9,7 @@ class Movie{
     public $originalLanguage;
     public $rating;
 
-    function __construct(String $_title, String $_director, Array $_genres, Int $_year, String $_originalLanguage, $_rating, String $_originalTitle = null){
+    function __construct(String $_title, String $_director, Array $_genres, Int $_year, $_rating, String $_originalTitle = null, String $_originalLanguage = 'eng'){
         $this->title = $_title;
         $this->director = $_director;
         $this->genres = $_genres;
